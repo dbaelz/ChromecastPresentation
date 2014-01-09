@@ -4,7 +4,7 @@ Example app for [Google Cast](https://developers.google.com/cast/) on Android an
 
 Whitelisting your Chromecast
 -------------------------
-The Google Cast API is a preview for development and testing. For detailed explanation about whitelisting your Chromecast device read the [Developer Setup](https://developers.google.com/cast/whitelisting). After whitelisting replace the APP_ID placeholder in the [MainActivity class](https://github.com/dbaelz/ChromecastPresentation/ChromecastPresentation/src/main/java/de/inovex/chromecast/presentation/MainActivity.java#L30) and the [index.html](https://github.com/dbaelz/ChromecastPresentation/receiver/index.html#L12).
+The Google Cast API is a preview for development and testing. For detailed explanation about whitelisting your Chromecast device read the [Developer Setup](https://developers.google.com/cast/whitelisting). After whitelisting replace the APP_ID placeholder in the [MainActivity class](https://github.com/dbaelz/ChromecastPresentation/blob/master/ChromecastPresentation/src/main/java/de/inovex/chromecast/presentation/MainActivity.java#L30) and the [index.html](https://github.com/dbaelz/ChromecastPresentation/blob/master/receiver/index.html#L12).
 
 Build the Example
 ------------------
