@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Presentation</title>
+    <link rel="stylesheet" type="text/css" href="presentation.css">
+    <script src="https://www.gstatic.com/cast/js/receiver/1.0/cast_receiver.js"></script>
+    <script src="presentation.js"></script>
+    <script type="text/javascript">
+        window.onload = onLoad;
+
+        function onLoad() {
+            var presentationReceiver = new cast.receiver.Receiver("APP_ID", ["de.inovex.chromecast.presentation"], "", 5);
+
+            var presentation = new cast.Presentation();
+            presentation.mChannelHandler.addChannelFactory(presentationReceiver.createChannelFactory("de.inovex.chromecast.presentation"));
+            presentationReceiver.start();
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
